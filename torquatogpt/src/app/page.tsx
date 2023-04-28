@@ -1,4 +1,5 @@
 'use client';
+import React from 'react';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import { useState } from 'react';
@@ -15,10 +16,11 @@ const Hero = () => {
             <svg
               stroke='currentColor'
               fill='none'
-              stroke-width='1.5'
+              strokeWidth
+              ='1.5'
               viewBox='0 0 24 24'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
               className='h-6 w-6'
               height='1em'
               width='1em'
@@ -54,14 +56,15 @@ const Hero = () => {
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              stroke-width='1.5'
+              strokeWidth
+              ='1.5'
               stroke='currentColor'
               aria-hidden='true'
               className='h-6 w-6'
             >
               <path
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeLinecap='round'
+                strokeLinejoin='round'
                 d='M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z'
               ></path>
             </svg>
@@ -84,10 +87,11 @@ const Hero = () => {
             <svg
               stroke='currentColor'
               fill='none'
-              stroke-width='1.5'
+              strokeWidth
+              ='1.5'
               viewBox='0 0 24 24'
-              stroke-linecap='round'
-              stroke-linejoin='round'
+              strokeLinecap='round'
+              strokeLinejoin='round'
               className='h-6 w-6'
               height='1em'
               width='1em'
@@ -158,7 +162,8 @@ const Chat = ({ requestMessage, responseMessage }: ChatProps) => {
                 viewBox='0 0 41 41'
                 fill='none'
                 xmlns='http://www.w3.org/2000/svg'
-                stroke-width='1.5'
+                strokeWidth
+                ='1.5'
                 className='h-6 w-6'
               >
                 <path
@@ -264,10 +269,11 @@ export default function Home() {
                   <svg
                     stroke='currentColor'
                     fill='none'
-                    stroke-width='2'
+                    strokeWidth
+                    ='2'
                     viewBox='0 0 24 24'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                     className='h-4 w-4 mr-1'
                     height='1em'
                     width='1em'
